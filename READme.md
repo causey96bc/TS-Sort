@@ -1,0 +1,1 @@
+ This is a simple project to learn how to manipulate data structures using typescript.
