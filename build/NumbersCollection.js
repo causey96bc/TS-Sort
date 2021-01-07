@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.NumbersCollection = void 0;
 var NumbersCollection = /** @class */ (function () {
     function NumbersCollection(data) {
         this.data = data;
@@ -9,7 +8,7 @@ var NumbersCollection = /** @class */ (function () {
         get: function () {
             return this.data.length;
         },
-        enumerable: false,
+        enumerable: true,
         configurable: true
     });
     NumbersCollection.prototype.compare = function (leftIndex, rightIndex) {
