@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.CharactersCollection = void 0;
 var CharactersCollection = /** @class */ (function () {
     function CharactersCollection(data) {
         this.data = data;
@@ -8,7 +9,7 @@ var CharactersCollection = /** @class */ (function () {
         get: function () {
             return this.data.length;
         },
-        enumerable: true,
+        enumerable: false,
         configurable: true
     });
     CharactersCollection.prototype.compare = function (leftIndex, rightIndex) {
