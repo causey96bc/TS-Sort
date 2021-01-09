@@ -18,3 +18,4 @@ characterSort.sort();
 linkedListSorter.sort();
 console.log(charactersCollection.data);
 console.log(numbersCollection.data);
+linkedList.print()
