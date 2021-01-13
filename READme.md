@@ -2,6 +2,13 @@
     - a simple typescript sorting application that sorts through multiple data types.
     - includes a linked list sorting algorithm.
 
+# Scripts
+    - start:build: "tsc -w",
+    - start:run: "nodemon build     index.js",
+    - start: "concurrently npm:start:*"
+    -run these scripts when you are ready to sort through your data types. 
+
+
  # Data Types
     - Character collections (a string of characters that will be sorted through alphabetically).
     - Number collections (an array of values in any order that will be sorted through least to greatest).
@@ -39,3 +46,6 @@
     - Swap() takes the nodes at the left index and right index that were compared above and swaps them based on the result of the compare function and it takes that data and will print it while there is a node.
 
     - print() logs the data from the above methods and will display the linked list accordingly until there is no tail and the resulting node becomes null. 
+
+# Coming soon 
+    - additional data types and algorithm inputs
